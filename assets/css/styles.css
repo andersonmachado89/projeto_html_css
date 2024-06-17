@@ -189,7 +189,8 @@
     }
 
     .menu {
-        display: none;
+        bottom: 0;
+        text-align: center;
     }
 
     .menu-content, .menu-content ul {
@@ -199,6 +200,10 @@
 
     .menu-content {
         height: 100vh;
+    }
+
+    .menu {
+        display: none;
     }
 
     .close-menu-label::after {
